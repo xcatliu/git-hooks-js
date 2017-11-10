@@ -1,13 +1,14 @@
 {
-  "name": "git-hooks",
+  "name": "git-hooks-plus",
   "description": "A tool to manage project Git hooks",
   "author": "Alexander Tarmolov <tarmolov@gmail.com>",
-  "version": "1.1.9",
-  "repository": "https://github.com/tarmolov/git-hooks-js",
+  "version": "1.0.0",
+  "repository": "https://github.com/xcatliu/git-hooks-plus",
   "contributors": [
     "Alexander Tarmolov <tarmolov@gmail.com> (http://tarmolov.ru/)",
     "Denis Khananein <i@zloylos.me> (http://zloy.me/)",
-    "Ikonnikov Konstantin"
+    "Ikonnikov Konstantin",
+    "xcatliu <xcatliu@gmail.com>"
   ],
   "keywords": [
     "git",

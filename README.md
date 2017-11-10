@@ -1,8 +1,10 @@
-# git-hooks-js
+# git-hooks-plus
 
-[![NPM version](https://badge.fury.io/js/git-hooks.svg)](https://www.npmjs.com/package/git-hooks) [![Build Status](https://travis-ci.org/tarmolov/git-hooks-js.svg)](https://travis-ci.org/tarmolov/git-hooks-js) [![Coverage Status](https://coveralls.io/repos/tarmolov/git-hooks-js/badge.svg?branch=master&service=github)](https://coveralls.io/github/tarmolov/git-hooks-js?branch=master) [![Dependency Status](https://david-dm.org/tarmolov/git-hooks-js.svg)](https://david-dm.org/tarmolov/git-hooks-js) [![npm](https://img.shields.io/npm/dm/git-hooks.svg?maxAge=2592000)](https://www.npmjs.com/package/git-hooks)
+[![NPM version](https://badge.fury.io/js/git-hooks-plus.svg)](https://www.npmjs.com/package/git-hooks-plus) [![Build Status](https://travis-ci.org/xcatliu/git-hooks-plus.svg)](https://travis-ci.org/xcatliu/git-hooks-plus) [![Coverage Status](https://coveralls.io/repos/xcatliu/git-hooks-plus/badge.svg?branch=git-hooks-plus&service=github)](https://coveralls.io/github/xcatliu/git-hooks-plus?branch=git-hooks-plus) [![Dependency Status](https://david-dm.org/xcatliu/git-hooks-plus.svg)](https://david-dm.org/xcatliu/git-hooks-plus) [![npm](https://img.shields.io/npm/dm/git-hooks-plus.svg?maxAge=2592000)](https://www.npmjs.com/package/git-hooks-plus)
 
-`git-hooks` is an utility for managing and running project [git hooks](http://git-scm.com/docs/githooks) for [nodejs](http://nodejs.org/) projects.
+> `git-hooks-plus` is forked from [git-hooks-js](https://github.com/tarmolov/git-hooks-js) and supports Windows.
+
+`git-hooks-plus` is an utility for managing and running project [git hooks](http://git-scm.com/docs/githooks) for [nodejs](http://nodejs.org/) projects.
 
 It has zero dependecies and easy to use.
 
@@ -20,19 +22,20 @@ You can do a lot of things with them:
   * Spell check the commit message or check it format.
   * and etc.
 
-**Note.** When you use `git-hooks`, you should not modify `$GIT_DIR/hooks` directory manually because `git-hooks` will do it for you.
+**Note.** When you use `git-hooks-plus`, you should not modify `$GIT_DIR/hooks` directory manually because `git-hooks-plus` will do it for you.
 
 ## Supported platforms
   * Unix
   * macOS
+  * Windows
 
 ## Install
-Install `git-hooks` in your project.
+Install `git-hooks-plus` in your project.
 ```bash
-npm install git-hooks --save-dev
+npm install git-hooks-plus --save-dev
 ```
 
-To keep things organized, `git-hooks` looks for scripts in sub-directories named after the git hook name.
+To keep things organized, `git-hooks-plus` looks for scripts in sub-directories named after the git hook name.
 All these sub-directories should be stored in `.githooks` directory in the project root.
 
 Let's create some dummy pre-commit hook.
