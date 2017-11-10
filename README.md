@@ -42,7 +42,7 @@ Let's create some dummy pre-commit hook.
 ```bash
 mkdir -p .githooks/pre-commit
 echo -e '#!/usr/bin/env node' "\nconsole.log('hi!');" > .githooks/pre-commit/hello.js
-chmod +x .githooks/pre-commit/hello.js
+chmod +x .githooks/pre-commit/hello.js  # This may not working in Windows, but don't worry, hello.js will be executed through node
 ```
 
 Then just try to commit and see how things are rolling.
